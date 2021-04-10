@@ -1,0 +1,33 @@
+https://wiki.termux.com/wiki/Main_Page
+termux
+apt update
+apt upgrade
+При обновлении согласиться с предлагаемой версией (Y)
+apt install root-repo
+apt install science-repo
+apt install openssh mc man bash-completion ffmpeg nmap git curl wget htop libgmp libmpc libmpfr libxml2 libxslt freetype libpng libsodium libjpeg-turbo libzmq
+termux-setup-storage
+export CFLAGS="-Wno-deprecated-declarations -Wno-unreachable-code"
+pip install pandas
+pip install gmpy2
+pip install wheel
+pip install lxml
+pip install matplotlib
+pip install pynacl
+pip install pillow
+pip install pyzmq
+curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
+bash setup-pointless-repo.sh
+pip install numpy
+pip install scipy
+pip install scikit-learn
+pip install scikit-image
+
+pip install jupyter
+# Установка Spyder
+$ sudo apt install python-pyqt5 python-sphinx // Здесь уточнить пакеты в системе
+$ pip install pyqt5
+$ pip install spyder
+Если что-то не так использовать
+LDFLAGS = "- lm -lcompiler_rt" pip install <.....>
+
